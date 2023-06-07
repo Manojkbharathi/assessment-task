@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' type='text/css' ' media="screen" href="style.css"/>
+    <title>Todo List App</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <ion-icon name="create-outline"></ion-icon>
+        <input type="text" placeholder="Add a New Task + Enter" id="input" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <button id="all">All</button>
+          <button id="pending">Pending</button>
+          <button id="completed">Completed</button>
+        </div>
+        <button id="clear">Clear All</button>
+      </div>
+      <div class="box">
+        <ul class="task-box"></ul>
+        <ul class="completed-box"></ul>
+        <ul class="pending-box"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
